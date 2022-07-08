@@ -34,3 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      
+      # Feeds data to test.py using the runners shell
+      - name: Feed data to test.py
+        run: cat test_data.txt | python3 test.py
