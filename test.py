@@ -1,4 +1,2 @@
-print("Hello world?")
-print("Hi")
-a = input("feji")
+a = input()
 print(a)
